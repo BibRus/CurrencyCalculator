@@ -40,8 +40,8 @@ public class Money {
 
     public static class Builder {
 
-        BigDecimal amount;
-        Currency currency;
+        private final BigDecimal amount;
+        private final Currency currency;
 
         public Builder(double amount, Currency currency) {
             this.amount =  new BigDecimal(amount).setScale(Configuration.CONVERTER_ROUNDING_SCALE,
