@@ -3,10 +3,14 @@ plugins {
 }
 
 group = 'ru.bibrus'
-version = '0.0.1'
+version = '0.1.0'
 
 repositories {
     mavenCentral()
+}
+
+java.toolchain {
+    languageVersion = JavaLanguageVersion.of(11);
 }
 
 dependencies {
