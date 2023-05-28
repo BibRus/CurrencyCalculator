@@ -1,6 +1,5 @@
 package ru.bibrus.converter;
 
-
 @FunctionalInterface
 public interface CurrencyConverter {
 
