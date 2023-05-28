@@ -42,6 +42,7 @@ Token {position=54, type=DOLLAR_FLOAT, value='$85.4'}
 Token {position=59, type=RIGHT_PARENTHESIS, value=')'}
 Token {position=60, type=RIGHT_PARENTHESIS, value=')'}
 ```
+
 Пример использования конвертера
 ```java
 import ru.bibrus.converter.Currency;
@@ -68,6 +69,7 @@ public class Converter {
 rubles = 85,40p
 dollars = $5124,00
 ```
+
 ### Требования
 
 * Java 11
@@ -81,7 +83,6 @@ gradlew :run
 ```
 
 Или
-
 ```
 ./gradlew :run
 ```
