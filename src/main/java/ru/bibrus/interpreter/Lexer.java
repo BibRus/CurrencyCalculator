@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface Lexer {
 
-    List<Token> analyse();
+    List<Token> analyse(String code);
     boolean nextToken() throws LexerAnalysisException;
 
 }

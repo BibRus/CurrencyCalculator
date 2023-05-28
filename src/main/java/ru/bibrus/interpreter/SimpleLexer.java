@@ -15,7 +15,8 @@ public class SimpleLexer implements Lexer {
     private final List<Token> tokens = new ArrayList<>();
 
     @Override
-    public List<Token> analyse() {
+    public List<Token> analyse(String code) {
+        this.code = code;
         while (true) {
             try {
                 if (!this.nextToken()) break;
